@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic01-^^-</title>
+<!-- here we connect css and html  -->
+    <link rel="stylesheet" href="Basic01.css
+    ">
+</head>
+
+
+<body>
+    <p><b>HTML stands for Hyper Text Markup Language
+
+            || HTML is the standard markup language for Web pages
+
+            ||HTML elements are the building blocks of HTML pages
+
+            ||HTML elements are represented by <> tags</b></p>
+    <!-- <p> is tag inside body use for paragraphs and</p> is closing Tag * type "lorem15" and press enter you see 15 word paragraph , you can write it for n numbers -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint facilis delectus cumque.</p>
+
+    <!-- heading tag in html for different font size -->
+    <h1 style="color: rgb(4, 134, 10)">This is bigest heading</h1>
+    <h2>This is sec big</h2>
+    <h3>hey i am h3</h3>
+    <h4>iam H4 yo</h4>
+    <h5>ha ha i am h5</h5>
+    <h6>i am smallest no one after me</h6>
+
+    <!-- now we learn list ordered <ol> & unordered <ul> -->
+    <ol>
+        <b>I am ordered list</b>
+        <li>mango</li>
+        <li>apple</li>
+        <li>banana</li>
+    </ol>
+    <ol type="a">
+        <b>I am ordered list</b>
+        <li>mango</li>
+        <li>apple</li>
+        <li>banana</li>
+    </ol>
+    <ul>
+        <b>I am unordered list</b>
+        <li>mango</li>
+        <li>apple</li>
+        <li>banana</li>
+    </ul>
+    <!-- Anchor tag href - hyper reference [it is very important for connect different pages webpages] -->
+     <div>
+
+         <a href="https://www.w3schools.com"> W3 School</a>
+        </div>
+
+    <!-- now image tag -->
+    <img src="galaxy.jpg" alt="solar" height="500px" width="300px">
+    <img src="https://i.pinimg.com/736x/a7/b5/d1/a7b5d1af7909f729eae0913d8358983d.jpg" alt="solar" height="500px"
+        width="300px">
+
+    <ul id="link">
+
+        <li>lion <a href="https://i.pinimg.com/1200x/b2/14/ff/b214ff3d2477a338c574e047b585124a.jpg">to see click</a>
+        </li>
+        <li>zebra <a href="https://i.pinimg.com/1200x/b6/71/3a/b6713ac28bba83f7b03391e446da1410.jpg">to see click</a>
+        </li>
+        <li>wolf <a href="https://i.pinimg.com/736x/e1/33/01/e13301c2da1e87dde57ef075cf301aef.jpg">to see click</a></li>
+    </ul>
+
+    <!-- for change line we use <br> line change,<b> bold, <i> italic, <u> underline tag -->
+    <p>Twinkle Twinkle, little star,How I wonder what you are!Up above the world so high,Like a diamond in the sky.</p>
+    <p><b>not looks good right</b></p>
+    <p>Twinkle..Twinkle<br><i>little star..</i>
+        <br> <u>How I wonder </u><br>what you are!
+    </p>
+
+    <!-- hr/ to separate two paragraphs tag -->
+    <p>HTML elements can have attributes</p>
+    <hr />
+
+    <p>The term "HTML Entity" is used as a synonym for a character reference — a pattern of characters that can
+        represent another character in the HTML. For example, &lt; is used to represent the less-than symbol (<) in HTML
+            content.</p>
+            <h3>image tag and anchor tag are inline element & paragraph and heading tag are block element</h3>
+
+            <p>The primary difference is that
+            <div> is a block-level element while <span> is an inline element. Both are generic HTML containers used to
+                    group content for styling or scripting, but they behave differently in a webpage layou</p>
+
+    sub and super script
+    <h2>a<sup>2</sup> = a*a</h2>
+    <h2>CO<sub>2</sub></h2>
+
+    <!-- here we use htmll entities for Symbols -->
+    <h1>this is dam &hearts; BASICS</h1>
+    <p> a &iff; b</p>
+    <p> a &lt; b</p>
+    <p> a &gt; b</p>
+    <p>&#10000; html entities </p>
+    <p>&#20000; html entities </p>
+    <p>&#6000; html entities </p>
+
+    <!-- now emit eg.(child) p>div>img -->
+    <p>
+    <div>
+        <h6></h6>
+    </div>
+    </p>
+    <!-- eg.2 p>div+span (siblings) -->
+    <p>
+    <div>yoyo </div>
+    <span>honey</span>
+    </p>
+    <!-- eg. 3   ul>li*4 (multiplication) -->
+    <ul class="list">
+        <li>jam</li>
+        <li>bread</li>
+        <li>butter</li>
+        <li>chill</li>
+    </ul>
+    <!-- eg.4 ul>li.item$*5 (item identi) -->
+     <p>here i use class identifier for css design</p>
+    <ol class="list">
+        <li class="item1">monkey</li>
+        <li class="item2">tiger</li>
+        <li class="item3">ELE</li>
+    </ol>
+    <p>---------------------------------------</p>
+    <!-- table <tr> row , <td> data , <th> header -->
+    <table border="">
+        <caption>TABLE</caption>
+        <!-- table header  -->
+        <thead>
+            <tr>
+                <th>item</th>
+                <th>freq</th>
+            </tr>
+        </thead>
+        <!-- table body  -->
+        <tbody>
+            <tr>
+                <td>car</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>bike</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>total</td>
+            <td>sum</td>
+        </tfoot>
+    </table>
+    <!-- for different type of table combining row or column use rowspan /colspan -->
+    <table border="">
+        <caption>food menu</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">item</th>
+                <th colspan="2">price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>soup</td>
+                <td>50</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>salad</td>
+                <td>100</td>
+                <td>53</td>
+            </tr>
+            <tr>
+                <td>panC</td>
+                <td>150</td>
+                <td>75.36</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="">
+        <caption>A test table with merge</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+            </tr>
+
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>0.9</td>
+                <td>0.0003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Lets explore about Diff Forms</h3>
+    <!-- if i write buttem out of form nothing will happend  -->
+    <button>HELLO this button is use less</button>
+    <!-- now talking about form like if we want to create login , sigin pages like that  -->
+    <form action="/action">
+        <label>
+            Username:
+            <input type="text" placeholder="enter username">
+        </label>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter password" id="password" />
+        <br>
+        Number
+        <input type="number">
+        <br>
+        Time
+        <input type="time">
+        <br>
+        Color
+        <input type="color">
+        <br>
+        email
+        <input type="email">
+        <br>
+        button
+        <input type="button">
+        <br>
+        checkbox
+        <input type="checkbox">
+        <br>
+        Date
+        <input type="date">
+
+        <br>
+        file
+        <input type="file">
+
+        <br>
+        image
+        <input type="image">
+
+        <br>
+        button radio
+        <input type="radio">
+
+        <br>
+        month
+        <input type="month">
+
+        <br>
+        range
+        <input type="range">
+
+    </form>
+    <p>-------------------------------------------</p>
+    <form action="/server">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter name" name="name" id="name">
+        </div>
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" placeholder="Enter password" name="pass" id="pass">
+        </div>
+        <button type="submit">Submit</button>
+        <hr />
+
+
+    </form>
+
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="yt search" name="search_query" id="search">
+        <button>Search</button>
+    </form>
+    <form action="https://x.com/search">
+        <button style="c">GO~X</button>
+    </form>
+    <hr />
+    <form action="https://www.google.com/search">
+        google_karlo
+        <input type="text" placeholder="Google search" name="q" id="sea">
+        <button id="goo">Search</button>
+        <br>
+    </form>
+    <form action="/server">
+        <div>
+            <input type="checkbox" name="age" id="age">
+            <label for="age">i am 18+</label>
+            <div>
+                <!-- here name atribut is same -->
+                <input type="radio" name="fruit" id="apple" value="apple">
+                <label for="apple">apple</label>
+
+                <input type="radio" name="fruit" id=mango" value="mango">
+                <label for="mango">mango</label>
+
+                <input type="radio" name="fruit" id="pine" value="pine">
+                <label for="pine">pine</label>
+                <p>this will appear when value radio button given checkbox on
+                    https://www.google.com/search?q=Quiz&age=on&fruit=pine
+                    <b>{age=on&fruit=pine}</b>
+                </p>
+                choose your stream:
+                <input type="checkbox" id="C" name="sub" value="C">
+                <label for="C">C pro</label>
+                <input type="checkbox" id="C++" name="sub" value="cpp">
+                <label for="C++">C++ pro</label>
+                <input type="checkbox" id="py" name="sub" value="py">
+                <label for="py">Python</label>
+            </div>
+            <label for="vol">Select level of VOLUME:</label>
+            <input type="range"
+             id="vol" 
+             min="0" max="100" 
+             name="vol" step="10" 
+             value="20">  <!--preselect range -->
+
+            <br />
+            <label for="feedback">please give your feedback:</label>
+            <textarea name="feedback" id="feedback" placeholder="plz write here..."></textarea>
+            <button id="feed">submit</button>
+    </form>
+    <div>
+        <input type="radio" id="yes" name="aggree">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="aggree">
+        <label for="no">No</label>
+        
+    </div>
+    <!-- pseudo classes :, element :: -->
+     <p id="pop">In CSS, "cascading" refers to the built-in algorithm and rule hierarchy that the browser uses to resolve conflicts when multiple styles target the same HTML element.
+     <h5>In CSS, if I apply the color yellow first and then the color pink, the pink color will appear because of the cascade order of appearance rule 
+        <ul>
+            <li>[ id > class > element ] </li>
+            <li> more selectors (more css) > less selector</li>
+            <li> if specificity same -> cascading</li>
+            <li>Always inline style priority is high > then css style</li>
+        </ul>
+     </h5>
+     
+    <!--here ! important property-->
+    <p id="imp"> My name is Anthony
+    </p> 
+</body>
+
+</html>
