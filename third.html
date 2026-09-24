@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Tables</title>
+</head>
+
+<body>
+
+    <h1>HTML Tables</h1>
+
+    <!-- ===================== SIMPLE TABLE ===================== -->
+    <h2>1. Simple Table</h2>
+    <!--
+        <table>  = the table
+        <tr>     = table row
+        <th>     = table header cell (bold, centered by default)
+        <td>     = table data cell (regular cell)
+    -->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Riya</td>
+            <td>21</td>
+            <td>Indore</td>
+        </tr>
+        <tr>
+            <td>Aman</td>
+            <td>23</td>
+            <td>Delhi</td>
+        </tr>
+    </table>
+
+    <!-- ===================== TABLE WITH THEAD / TBODY / TFOOT ===================== -->
+    <h2>2. Table with thead, tbody, and tfoot</h2>
+    <table border="1">
+        <caption>Monthly Expenses</caption>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Amount (INR)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Groceries</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>Rent</td>
+                <td>8000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>11000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- ===================== ROWSPAN / COLSPAN ===================== -->
+    <h2>3. Merging cells with rowspan and colspan</h2>
+    <p><code>colspan</code> merges cells across columns, <code>rowspan</code> merges cells across rows.</p>
+
+    <table border="1">
+        <caption>Student Marks</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Marks</th>
+            </tr>
+            <tr>
+                <th>Maths</th>
+                <th>Science</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Riya</td>
+                <td>85</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Aman</td>
+                <td>78</td>
+                <td>82</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ===================== STYLING TABLES ===================== -->
+    <h2>4. A slightly styled table (inline CSS)</h2>
+    <table border="1" style="border-collapse: collapse; width: 100%;">
+        <tr style="background-color: #f2f2f2;">
+            <th style="padding: 8px;">Item</th>
+            <th style="padding: 8px;">Price</th>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Notebook</td>
+            <td style="padding: 8px;">₹40</td>
+        </tr>
+        <tr>
+            <td style="padding: 8px;">Pen</td>
+            <td style="padding: 8px;">₹10</td>
+        </tr>
+    </table>
+    <p>
+        <b>Tip:</b> <code>border-collapse: collapse;</code> removes the double borders you get between
+        adjacent table cells by default.
+    </p>
+
+</body>
+
+</html>
